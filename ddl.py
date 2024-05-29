@@ -19,7 +19,7 @@ def getenv(var): return environ.get(var) or DATA.get(var, None)
 
 
 UPTOBOX_TOKEN = getenv("UPTOBOX_TOKEN")
-ndus = getenv("TERA_COOKIE")
+ndus = "Y-DMihKteHuiPb3eMZ4Ub-ckZ3P8-5pQdRZGDumA"
 if ndus is None: TERA_COOKIE = None
 else: TERA_COOKIE = {"ndus": ndus}
 
